@@ -100,7 +100,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5575647328530354605
 Transform:
   m_ObjectHideFlags: 0
@@ -179,6 +179,7 @@ GameObject:
   - component: {fileID: 8883845642220509620}
   - component: {fileID: 1718342397073331483}
   - component: {fileID: 4352569178280557526}
+  - component: {fileID: 1375311429973905895}
   m_Layer: 0
   m_Name: Diff_5
   m_TagString: Untagged
@@ -240,3 +241,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.93, y: 2.39}
   m_EdgeRadius: 0
+--- !u!114 &1375311429973905895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8883845642220509619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2505223b57bac434ba7c143850252fad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  counterText: {fileID: 0}
