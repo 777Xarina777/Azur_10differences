@@ -992,8 +992,8 @@ ParticleSystem:
           inWeight: 0
           outWeight: 0.6987495
         - serializedVersion: 3
-          time: 0.23288284
-          value: 0.22913238
+          time: 0.30504167
+          value: 0.9829776
           inSlope: -1.480826
           outSlope: -1.480826
           tangentMode: 0
@@ -4832,6 +4832,7 @@ GameObject:
   - component: {fileID: 820499936193076803}
   - component: {fileID: 2087337449243327438}
   - component: {fileID: 8211337624171527307}
+  - component: {fileID: 5683904262757755676}
   m_Layer: 0
   m_Name: SingVFX
   m_TagString: Untagged
@@ -5807,15 +5808,15 @@ ParticleSystem:
         - serializedVersion: 3
           time: 0
           value: 0
-          inSlope: 1.1953769
-          outSlope: 1.1953769
+          inSlope: 3.4183035
+          outSlope: 3.4183035
           tangentMode: 34
           weightedMode: 0
           inWeight: 0
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 0.3226026
-          value: 0.38563168
+          time: 0.2925428
+          value: 1
           inSlope: -0.30796936
           outSlope: -0.30796936
           tangentMode: 0
@@ -5825,8 +5826,8 @@ ParticleSystem:
         - serializedVersion: 3
           time: 1
           value: 0
-          inSlope: -0.56928426
-          outSlope: -0.56928426
+          inSlope: -1.4135131
+          outSlope: -1.4135131
           tangentMode: 34
           weightedMode: 0
           inWeight: 0.33333334
@@ -9643,3 +9644,14 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!210 &5683904262757755676
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5212895689903265482}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 100
