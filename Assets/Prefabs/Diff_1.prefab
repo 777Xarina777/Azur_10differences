@@ -97,7 +97,6 @@ GameObject:
   - component: {fileID: 1374793282636711569}
   - component: {fileID: 1580773774739256622}
   - component: {fileID: 5786750864778952810}
-  - component: {fileID: 7133554866756049486}
   m_Layer: 0
   m_Name: Diff_1
   m_TagString: Untagged
@@ -201,24 +200,6 @@ MonoBehaviour:
             m_StringArgument: OnDifferenceClicked
             m_BoolArgument: 0
           m_CallState: 2
---- !u!114 &7133554866756049486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6654293891239569739}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0afe280fa999b804d9c90d10b4530480, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  circleHighlight: {fileID: 0}
-  mainSprite: {fileID: 0}
-  emeraldParticles: {fileID: 0}
-  clickCollider: {fileID: 0}
-  emeraldColor: {r: 0.18, g: 1, b: 0.44, a: 1}
-  lightEmerald: {r: 0.64, g: 1, b: 0.44, a: 1}
 --- !u!1 &7975798214438080123
 GameObject:
   m_ObjectHideFlags: 0

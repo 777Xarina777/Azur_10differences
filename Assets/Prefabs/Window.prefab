@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5639429369698681705}
   - component: {fileID: 150127831112204656}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: bush_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3609822814816352895}
   - component: {fileID: 4836591704538903068}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: branch_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5618401003670742801}
   - component: {fileID: 6549244430002816725}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: branch_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -262,7 +262,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3838111841389973283}
   - component: {fileID: 7591524797042611161}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -345,7 +345,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2530933550985523746}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -387,7 +387,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7221906088894793576}
   - component: {fileID: 401754444882247046}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: window_frame_front
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -471,7 +471,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3810323202999713680}
   - component: {fileID: 1886426697825438451}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: bush_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -555,7 +555,7 @@ GameObject:
   m_Component:
   - component: {fileID: 397057117296656331}
   - component: {fileID: 5123092979832829234}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -639,7 +639,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2807685363189832792}
   - component: {fileID: 818882674028608166}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: branch_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -723,7 +723,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5690659530470349787}
   - component: {fileID: 245976312522452162}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: bush_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -804,6 +804,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2530933550985523746}
     m_Modifications:
+    - target: {fileID: 2749532640821593930, guid: 0f45d3efbcabc1f49a7d9013e7a7a241, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2925421471761313389, guid: 0f45d3efbcabc1f49a7d9013e7a7a241, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -848,9 +852,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3079929456557643009, guid: 0f45d3efbcabc1f49a7d9013e7a7a241, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3713728114155377440, guid: 0f45d3efbcabc1f49a7d9013e7a7a241, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3904149384844584128, guid: 0f45d3efbcabc1f49a7d9013e7a7a241, type: 3}
       propertyPath: m_Name
       value: Bird 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3904149384844584128, guid: 0f45d3efbcabc1f49a7d9013e7a7a241, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4411745910908235510, guid: 0f45d3efbcabc1f49a7d9013e7a7a241, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6309168407789066299, guid: 0f45d3efbcabc1f49a7d9013e7a7a241, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7892649674260525124, guid: 0f45d3efbcabc1f49a7d9013e7a7a241, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8293883522084726097, guid: 0f45d3efbcabc1f49a7d9013e7a7a241, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8973399672351258827, guid: 0f45d3efbcabc1f49a7d9013e7a7a241, type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f45d3efbcabc1f49a7d9013e7a7a241, type: 3}
