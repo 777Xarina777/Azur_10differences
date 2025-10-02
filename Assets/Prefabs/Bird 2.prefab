@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8001216989911013415}
   - component: {fileID: 1123365962332417620}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: foot_l_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2407874553959170743}
   - component: {fileID: 5970975417909519031}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: wing_r-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,7 +156,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -2
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 8e82af2c430e33a49b5b6d59eab4d1bc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -178,7 +178,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2925421471761313389}
   - component: {fileID: 6904604733366160732}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Bird 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -238,7 +238,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4178197135226821075}
   - component: {fileID: 3275155266724233092}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: foot_l
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -322,7 +322,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1572667129742482648}
   - component: {fileID: 2528670972755335069}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: tail-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -406,7 +406,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4052443584941748042}
   - component: {fileID: 8981781076988562835}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: body-2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -468,7 +468,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -1
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 899fb8f040f621e469509d8d32615faf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -490,7 +490,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8989735935018643318}
   - component: {fileID: 2989329689569160846}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: wing_l-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -552,7 +552,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 66ac064d949c62e45bffa52e34f11e1d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -615,9 +615,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1366925127433873739, guid: 21237665742c01e4ea59a69063519fae, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 5212895689903265482, guid: 21237665742c01e4ea59a69063519fae, type: 3}
       propertyPath: m_Name
       value: SingVFX
+      objectReference: {fileID: 0}
+    - target: {fileID: 5212895689903265482, guid: 21237665742c01e4ea59a69063519fae, type: 3}
+      propertyPath: m_Layer
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21237665742c01e4ea59a69063519fae, type: 3}

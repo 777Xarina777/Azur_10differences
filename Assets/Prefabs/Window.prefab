@@ -804,9 +804,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2530933550985523746}
     m_Modifications:
-    - target: {fileID: 2749532640821593930, guid: 0f45d3efbcabc1f49a7d9013e7a7a241, type: 3}
-      propertyPath: m_Layer
-      value: 5
+    - target: {fileID: 2528670972755335069, guid: 0f45d3efbcabc1f49a7d9013e7a7a241, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 2925421471761313389, guid: 0f45d3efbcabc1f49a7d9013e7a7a241, type: 3}
       propertyPath: m_RootOrder
@@ -852,41 +852,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3079929456557643009, guid: 0f45d3efbcabc1f49a7d9013e7a7a241, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3713728114155377440, guid: 0f45d3efbcabc1f49a7d9013e7a7a241, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 3904149384844584128, guid: 0f45d3efbcabc1f49a7d9013e7a7a241, type: 3}
       propertyPath: m_Name
       value: Bird 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3904149384844584128, guid: 0f45d3efbcabc1f49a7d9013e7a7a241, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4411745910908235510, guid: 0f45d3efbcabc1f49a7d9013e7a7a241, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6309168407789066299, guid: 0f45d3efbcabc1f49a7d9013e7a7a241, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7892649674260525124, guid: 0f45d3efbcabc1f49a7d9013e7a7a241, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8293883522084726097, guid: 0f45d3efbcabc1f49a7d9013e7a7a241, type: 3}
-      propertyPath: m_Layer
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8973399672351258827, guid: 0f45d3efbcabc1f49a7d9013e7a7a241, type: 3}
-      propertyPath: m_Layer
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f45d3efbcabc1f49a7d9013e7a7a241, type: 3}
